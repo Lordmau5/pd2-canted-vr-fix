@@ -105,3 +105,8 @@ licence, and the plugin declares this one.
 `src/openvr.h` is from Valve's [OpenVR SDK](https://github.com/ValveSoftware/openvr) (2.15.6). It is
 not covered by the GPL notice above: it keeps Valve's own BSD 3-Clause licence, included as
 [src/LICENSE-openvr](src/LICENSE-openvr).
+
+## AI Disclaimer
+![AI](https://media1.tenor.com/m/mXFH6faI_a4AAAAC/artificial-intelligence-moistcritikal.gif)
+
+This mod was fully written by Claude Opus 5.5 in combination with the [universal-modder](https://github.com/rehan-remade/universal-modder) repository.
