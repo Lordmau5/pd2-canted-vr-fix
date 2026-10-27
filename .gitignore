@@ -1,0 +1,6 @@
+# original game files kept for restoring
+backup/
+
+# build output
+build/
+mod/*.dll

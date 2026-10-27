@@ -1,0 +1,14 @@
+{
+	"name": "Canted Display Fix (VR)",
+	"description": "Corrects eye alignment on VR headsets with canted displays. Native plugin; log: openvr_proxy.log in the game folder.",
+	"author": "",
+	"version": "0.2",
+	"blt_version": 2,
+	"vr_disabled": false,
+	"pre_hooks": [
+		{
+			"hook_id": "lib/entry",
+			"script_path": "load.lua"
+		}
+	]
+}
