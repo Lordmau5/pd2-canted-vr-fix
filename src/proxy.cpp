@@ -551,7 +551,7 @@ typedef void *(*lua_access_func_t)(const char *);
 extern "C" __declspec(dllexport) const uint64_t SBLT_API_REVISION = 1;
 extern "C" __declspec(dllexport) const char *const MODULE_LICENCE_DECLARATION =
 	"This module is licenced under the GNU GPL version 2 or later, or another compatible licence";
-extern "C" __declspec(dllexport) const char *const MODULE_SOURCE_CODE_LOCATION = "pd2-canted-fix/src (shipped with the mod)";
+extern "C" __declspec(dllexport) const char *const MODULE_SOURCE_CODE_LOCATION = "https://github.com/Lordmau5/pd2-canted-vr-fix";
 extern "C" __declspec(dllexport) const char *const MODULE_SOURCE_CODE_REVISION = "0.2";
 
 extern "C" __declspec(dllexport) void SuperBLT_Plugin_Setup(lua_access_func_t)

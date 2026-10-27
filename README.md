@@ -31,10 +31,14 @@ shipped DLLs and reports "Installation corrupted".)
 
 ## Install
 
-1. Build the plugin (see below) or take `canted_fix.dll` from a release.
-2. Copy the `mod` folder into `PAYDAY 2\mods\` and rename it, for example to `mods\Canted Display Fix\`.
-   The folder must contain `mod.txt`, `load.lua` and `canted_fix.dll`.
+1. Download the latest zip from the
+   [Releases tab](https://github.com/Lordmau5/pd2-canted-vr-fix/releases).
+2. Extract it into `PAYDAY 2\mods\`, so you get a folder like `mods\pd2-canted-vr-fix\`
+   that contains `mod.txt`, `load.lua` and `canted_fix.dll`.
 3. Wake the headset, then start the game in VR.
+
+To install from source instead, build the plugin (see [Building](#building)) and copy the `mod`
+folder into `PAYDAY 2\mods\` under a name of your choice.
 
 ## Configuration
 
@@ -92,8 +96,12 @@ from an "x64 Native Tools Command Prompt", it uses that environment instead. The
 
 - The game crashes on startup when the headset is asleep. See above.
 
-## Credits and licence
+## Licence
 
-- `src/openvr.h` is from Valve's [OpenVR SDK](https://github.com/ValveSoftware/openvr) (2.15.6), under
-  its BSD 3-Clause licence.
-- The plugin declares itself to SuperBLT as licensed under the GNU GPL version 2 or later.
+This mod is licensed under the GNU General Public License, version 2 or (at your option) any later
+version. See [LICENSE](LICENSE). SuperBLT requires native plugins to declare a GPL-compatible
+licence, and the plugin declares this one.
+
+`src/openvr.h` is from Valve's [OpenVR SDK](https://github.com/ValveSoftware/openvr) (2.15.6). It is
+not covered by the GPL notice above: it keeps Valve's own BSD 3-Clause licence, included as
+[src/LICENSE-openvr](src/LICENSE-openvr).
